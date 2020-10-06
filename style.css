@@ -74,6 +74,9 @@ body{
     border: none;
     color: #ffffff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 
@@ -82,6 +85,71 @@ body{
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
+
+button.btn {
+    padding: 12px 25px;
+    border: none;
+    color: #ffffff;
+    border-radius: 28.50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    margin-top: 50px;
+}
+button.btn.green-btn{
+    background-color:var(--light-green);    
+}
+button.btn.purple-btn{
+    background-color:var(--light-purple);
+}
+button.green-btn:hover{
+    background-color: white;
+    color: black;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  button.purple-btn:hover{
+    background-color: white;
+    color: black;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .nav_btn:hover{
+    background-color: white;
+    color: black;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  /* Texts in the hero section */
+  .main-title{
+      font-size: 60px;
+      font-family: "Oxygen", "sans-serif";
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--light-green);
+  }
+  .sub-title{
+    font-size: 40px;
+    font-family: "Oxygen", "sans-serif";
+    font-weight: normal;
+    color: var(--light-purple);
+    margin-top: -50px;
+  }
+  .para{
+    font-size: 15px;
+    font-family: "Poppins", "sans-serif";
+    color: #767676;
+    margin-right: 500px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+  }
