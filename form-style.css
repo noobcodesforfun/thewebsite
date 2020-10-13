@@ -65,7 +65,8 @@ form{
     display: flex;
     flex-direction:row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: inherit;
+    overflow: visible;
 }
 
 .input-field.select-option p{
@@ -73,7 +74,11 @@ form{
     font-weight: 500;
     font-size: 0.9rem;
 }
+.input-field.select-option select
+{
+    width: 55%;
 
+}
 
 .input-field i{
     text-align: center;
