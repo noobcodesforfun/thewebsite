@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://use.fontawesome.com/eb108e2299.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="form-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="register-form">
+          <form action="" class="reg-form">
+            <h2 class="title">Register For the Event</h2>
+            <div class="input-field">
+              <i class="fa fa-address-book"></i>
+              <input type="text" placeholder="Full Name" />
+            </div>
+            <div class="input-field">
+              <i class="fa fa-suitcase"></i>
+                <input type="text" placeholder="Job Title"
+              />
+            </div>
+            <div class="input-field">
+              <i class="fa fa-building"></i>
+                <input type="text" placeholder="Company"
+              />
+            </div>
+            <div class="input-field">
+              <i class="fa fa-envelope"></i>
+                <input type="text" placeholder="E-mail" />
+              
+            </div>
+            <div class="input-field">
+              <i class="fa fa-phone-square"></i>
+                <input type="text" placeholder="Phone" />
+              
+            </div>
+            <div class="input-field select-option">
+              <i class="fa fa-industry"></i>
+              <p>Industry</p>
+              <select
+                class="form-control"
+                id="Industry"
+                name="Industry"
+                placeholder="Industry"
+                required
+              >
+                <option value="">--SELECT--</option>
+                <option>Industry1</option>
+                <option>Industry2</option>
+                <option>Industry3</option>
+                <option>Industry4</option>
+                <option>Industry5</option>
+                <option>Industry6</option>
+                <option>Industry7</option>
+              </select>
+            </div>
+            <div class="input-field select-option">
+              <i class="fa fa-globe"> </i>
+              <p>Country</p>
+              <select
+                class="form-control"
+                id="Country"
+                name="Country"
+                placeholder="Country"
+                required
+              >
+                <option value="">--SELECT--</option>
+                <option>Country1</option>
+                <option>Country2</option>
+                <option>Country3</option>
+                <option>Country4</option>
+                <option>Country5</option>
+                <option>Country6</option>
+                <option>Country7</option>
+              </select>
+            </div>
+            <div class="g-recaptcha" data-sitekey="6LdGGtYZAAAAALSI4xWhokFO3Pj1_lRdP6VZPkRx"required></div>
+            <input type="submit" value="Submit" class="btn solid">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="description-container">
+      <div class="content">
+        <h1>Blockchain In Healthcare</h1>
+        <p>It takes immense Pleasure to announce Virtual Blockchain in Healthcare Symposium 2020, which is scheduled
+          on 26th November 2020, this symposium featured an educational program curated uniquely, and it provided
+          a blend of Academic and industry insights into the application of Blockchain.</p>
+          <img class="image" src="images/register-illustration.svg" alt="">
+      </div>
+    </div>
+  </body>
+</html>
