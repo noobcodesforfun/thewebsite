@@ -519,11 +519,3 @@ button.purple-btn:hover {
 .the-title.topic{
   margin-top: 30px;
 }
-
-
-@media (max-width: 480px) {
-  .main-title{
-    font-size: 30px;
-  }
-}
-
