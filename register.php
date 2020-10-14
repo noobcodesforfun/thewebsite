@@ -27,6 +27,7 @@ if(! $retval )
  echo "<h1> unsuccefull".mysqli_error($conn);
 else
 {
- header("location: thank_you.html");
+ header("location: registration_form.html");
+
 }
 ?>
