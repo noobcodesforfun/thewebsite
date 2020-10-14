@@ -56,8 +56,8 @@ body {
 .logo_image {
   display: block;
   background-image: url(./images/logo.svg);
-  width: 110px;
-  height: 110px;
+  height: 100.72px;
+  width: 350px;
 }
 .logo-text {
   display: flex;

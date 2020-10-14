@@ -1,7 +1,10 @@
 <?php
+// $dbhost = 'localhost';
+//  $dbuser = 'root'; 
+// $dbpass = ''; 
 $dbhost = 'localhost';
- $dbuser = 'root'; 
-$dbpass = ''; 
+ $dbuser = 'dbuser'; 
+$dbpass = 'asdf1234';
 $Fname = $_POST['Fname'];
 $Job = $_POST['Job'];
 $Company = $_POST[ 'Company'];
